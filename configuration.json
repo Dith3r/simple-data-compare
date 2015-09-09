@@ -1,0 +1,16 @@
+{
+"chunk": 50000,
+"threads": 8,
+"tables": ["literals1", "literals2"],
+"connections": [
+    {
+	"url": "jdbc:mysql://localhost1:3306/hashes",
+	"user": "root",
+	"password": ""
+    },
+    {
+	"url": "jdbc:mysql://localhost2:3306/hashes",
+	"user": "root",
+	"password": ""
+    }]
+}
